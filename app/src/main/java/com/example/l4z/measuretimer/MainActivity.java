@@ -21,9 +21,15 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         ArrayList<Item> items = new ArrayList<Item>();
-        items.add(new Item("First"));
-        items.add(new Item("Second"));
-        items.add(new Item("Third"));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
+        items.add(new Item(R.drawable.material_icon));
 
         Adapter adapter = new Adapter(this, items);
 

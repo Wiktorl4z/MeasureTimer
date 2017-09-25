@@ -7,6 +7,15 @@ package com.example.l4z.measuretimer;
 public class Item {
 
     private String name;
+    private int mImageView;
+
+    public Item(int mImageView) {
+        this.mImageView = mImageView;
+    }
+
+    public int getmImageView() {
+        return mImageView;
+    }
 
     public Item(String name) {
         this.name = name;
